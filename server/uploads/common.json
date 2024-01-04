@@ -1,0 +1,193 @@
+{
+    "authentication": {
+        "field": "Authentication"
+    },
+    "backup": {
+        "backUpDialog": {
+            "backUpTenant": "Backup-Principal",
+            "runBackUp": "Now perform a backup",
+            "tenantToBackUp": "Tenants to secure"
+        },
+        "backupHeader": "Delete backup",
+        "backupInfo": "This action can not be undone. Are you sure you want to delete the backup?",
+        "discardChanges": "Delete backup",
+        "name": "Backup name",
+        "noData": "No backup to view.",
+        "restoreDialog": {
+            "restoreButtonLable": "Restore Backup",
+            "restoreContent": "Restoring the data deletes all existing data in the tenant. Are you sure that you want to continue?",
+            "restoreHeader": "Restore Backup"
+        },
+        "runBackup": "Now perform a backup",
+        "tenantName": "name of the tenant",
+        "timeStamp": "Backup timestamp",
+        "upload": "Upload"
+    },
+    "button": {
+        "close": "Close",
+        "discard": "Cancel"
+    },
+    "common": {
+        "deleteTenants": "Delete tenant",
+        "required": "Necessary"
+    },
+    "createTenant": {
+        "add": "Create tenant",
+        "authentication": {
+            "authServerConfig": "Authentication server configuration",
+            "authentication": "Authentication",
+            "msg": "A set of default roles and users are automatically created.",
+            "msg2": "Roles, users, and their credentials can be customized after tenant creation.",
+            "tooltip": "The advanced option is available after the tenant is created",
+            "permissionWarning": "You are not authorized to access authentication information."
+        },
+        "basics": {
+            "appParams": "Configured application parameters",
+            "domain": ".panopticon.altair.com",
+            "newTenantName": "new-tenant-name-1",
+            "protocol": "https://"
+        },
+        "connecting": "Connect",
+        "newTenant": "Create new tenant",
+        "resources": {
+            "cpu": {
+                "limit": "CPU-Limit",
+                "request": "CPU request"
+            },
+            "custom": "Custom [CPUs min.-max. 0.7–2, memory min.–max. 2.4GB-4.9GB]",
+            "maxHeap": "JVM-Heap Max(-Xmx)",
+            "memory": {
+                "limit": "Memory limit",
+                "request": "Memory requirement"
+            },
+            "minHeap": "Min. JVM-Heap (-Xms)",
+            "monetdb": "MonetDB",
+            "noAppVersionError": "Application version is not selected. On the Basics tab, select the application version.",
+            "notResponding": "Does not react",
+            "not_ready": "Not ready",
+            "panoviz": "Panopticon visualization",
+            "python": "Python",
+            "python-container": "Python",
+            "rserve": "Reservations",
+            "running": "Running",
+            "sizeError": "Size details could not be retrieved from the server.",
+            "sizing": "Sizing",
+            "xSmallOption": "x-small [CPUs min.-max. 0.7–2, memory min.–max. 2.4GB-4.9GB]",
+            "permissionWarning": "You are not authorized to access resource information."
+        },
+        "tenantCreated": "Tenant created, POD started. It may take a few minutes for the containers to be ready.",
+        "toolTip": {
+            "cpulimit": "Valid CPU format: number or number m (example: 100, 100m)",
+            "cpurequest": "Valid CPU format: number or number m (example: 100, 100m)",
+            "maxHeap": "Valid maxHeap format: optional -Xmx, followed by a number and optional M/m (Example: -Xmx1900m, 1900m)",
+            "memorylimit": "Valid storage format: Number, Number Mi, or Number Gi (Example: 1024, 1024 Mi, 1024 Gi)",
+            "memoryrequest": "Valid storage format: Number, Number Mi, or Number Gi (Example: 1024, 1024 Mi, 1024 Gi)",
+            "minHeap": "Valid minHeap format: optional -Xms, followed by a number and optional M/m (Example: -Xms900m, 900m)"
+        },
+        "writeConfig": "Write configuration"
+    },
+    "errors": {
+        "authParamsError": "Error retrieving authentication parameters",
+        "authTypeError": "Error retrieving authentication list",
+        "cpuFieldsError": "Correct values are not provided for CPU fields",
+        "cpuLimitError": "The request value is higher than the specified limit for the CPU field. Please make sure the request value is less than the limit.",
+        "cpuLowerBoundError": "CPU request and limit values must be greater than zero.",
+        "error": "Mistake",
+        "errorDownloadFile": "The file download failed. Please try again later.",
+        "intervalParseError": "The specified interval value in the configuration file is invalid. As a replacement, we use a default interval of 30 seconds.",
+        "jvmHeapError": "Proper values are not provided for JVM heap fields",
+        "jvmLimitError": "The minimum heap value is higher than the maximum heap value specified for the JVM field. Make sure the minimum heap value is lower than the maximum heap value.",
+        "jvmLowerBoundError": "The minimum and maximum values of the JVM heap must be greater than zero.",
+        "memoryFieldsError": "Correct values are not provided for storage fields",
+        "memoryLimitError": "The request value is higher than the specified limit for the storage field. Please make sure the request value is less than the limit.",
+        "memoryLowerBoundError": "Memory request and limit values must be greater than zero.",
+        "parseError": "An error occurred while parsing the input.",
+        "required": "This field is required.",
+        "requiredError": "Please fill out all required fields."
+    },
+    "extensions": {
+        "discardChanges": "Delete Jar extension",
+        "extensionHeader": "Delete extensions",
+        "extensionInfo": "This action can not be undone. Are you sure you want to delete the extension?",
+        "name": "Extension name",
+        "noData": "No extensions to display.",
+        "timeStamp": "Extension timestamp"
+    },
+    "fileUpload": {
+        "drag": "or drag the file here",
+        "fileUploadInProgress": "File upload in progress...",
+        "upload": "Upload from my computer"
+    },
+    "headerTabs": {
+        "backups": "Backups",
+        "logout": "Log out",
+        "tenants": "Renter"
+    },
+    "link": "shortcut",
+    "login": {
+        "password": "password",
+        "signIn": "Register",
+        "title": "Altair Panopticon Cloud-Administration",
+        "userName": "Name or email"
+    },
+    "resources": {
+        "status": {
+            "notResponding": "Does not react",
+            "not_ready": "Not ready",
+            "running": "Running"
+        }
+    },
+    "serverError": "Error retrieving data from server",
+    "suffixError": "Error retrieving suffix data from server.",
+    "tenantTable": {
+        "backUptenant": "Secure clients before deletion",
+        "cancelMsg1": "Would you like to cancel the new tenant lawsuit?",
+        "cancelMsgHeader": "Cancel the creation of a new tenant",
+        "continueCreatingTenant": "Proceed to create the tenant",
+        "cpu": "CPUs",
+        "createNewTenant": "Create new tenant",
+        "delete": "Delete",
+        "deleteMsg1": "This action can not be undone.",
+        "deleteMsg2": "Deleting tenants will result in disconnected users and/or loss of data that is not also stored elsewhere.",
+        "deleteMsgHeader": "Delete selected tenants",
+        "deleteTenants": "Delete selected tenants",
+        "done": "Completed",
+        "lastBackup": "Last backup",
+        "lastUpdated": "last update",
+        "memory": "Memory",
+        "name": "name of the tenant",
+        "noTenants": "No tenants available to display.",
+        "reqLimit": "Request limit",
+        "status": "Status",
+        "url": "Tenant URL",
+        "version": "Application version"
+    },
+    "updateTenant": {
+        "apply": "Apply",
+        "applyBtnInfo": "For the changes to take effect, the tenant POD must be restarted. Restarting the tenant POD may result in connected users being disconnected and/or unsaved data being lost.",
+        "applyBtnMessageHeader": "Apply changes",
+        "applyChanges": "Apply the changes and restart the tenant POD",
+        "back": "Back",
+        "backBtnInfo": "You made changes that were not applied. Unapplied changes will be lost when returning to the tenant list.",
+        "backBtnMessageHeader": "There are unapplied changes",
+        "backup": {
+            "backupName": "Backup name"
+        },
+        "cancel": "Cancel",
+        "diagnostics": {
+            "loading": "Is loading",
+            "noResources": "No resources were found for the selected tenant",
+            "resource": "Resource name",
+            "service": "Service",
+            "status": "Status"
+        },
+        "diagonostics": {
+            "service": "Service"
+        },
+        "discardChanges": "discard changes",
+        "extensions": {
+            "extensionName": "Extension name"
+        },
+        "restartPod": "Start anew"
+    }
+}
